@@ -4,8 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: './src/js/index.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'main.js'
+        path: path.resolve(__dirname, 'public'),
+        filename: 'main.min.js'
     },
     resolve: {
         extensions: ['.js','.scss']
