@@ -81,6 +81,7 @@ body {
 }
 
 .messages {
+    opacity: 0;
     font-size: large;
     box-sizing: border-box;
     padding: 0.5rem 1rem;
@@ -92,6 +93,7 @@ body {
     width: -moz-fit-content;
     width: fit-content;
     max-width: 66%;
+    transition: .6s;
     box-shadow: 0 0 0.1rem #5555558e, 0rem 1rem 1rem -1rem #70707091;
     font-size: large;
 }
@@ -99,6 +101,10 @@ body {
 .message-IA {
     position: relative;
     text-align: left;
+    &.active{
+        transition-delay: 1s;
+        opacity: 1;
+    }
 }
 
 .message-User {
@@ -108,6 +114,10 @@ body {
     color: white;
     position: relative;
     text-align: right;
+    &.active{
+        transition-delay: .3s;
+        opacity: 1;
+    }
 }
 
 /* width */
