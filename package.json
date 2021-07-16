@@ -17,6 +17,7 @@
     "author": "Emanuel Dos Santos",
     "license": "GPL-3.0 License",
     "devDependencies": {
+        "copy-webpack-plugin": "^9.0.1",
         "css-loader": "^5.2.7",
         "html-webpack-plugin": "^5.3.2",
         "sass-loader": "^12.1.0",

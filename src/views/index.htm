@@ -7,8 +7,37 @@
         <meta name="description" content="esto es un chatBot">
         <meta name="keywords" content="chatBot,inteligencia artificial,chat inteligente">
         <meta http-equiv="cache-control" content="no-cache">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>Chat Bot</title>
     </head>
     <body>
+        <div class="container">
+            <div class="card-main">
+                <div class="card-body" id="chatBot">
+                    <div class="messages message-IA">
+                        <p id="messageWelcome"></p>
+                    </div>
+                </div>
+                <div class="card-input" id="divMessage">
+                    <input id="message" class="input" placeholder="Escriba un mensaje...">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" id="send"><path fill-rule="evenodd" d="M1.513 1.96a1.374 1.374 0 011.499-.21l19.335 9.215a1.146 1.146 0 010 2.07L3.012 22.25a1.374 1.374 0 01-1.947-1.46L2.49 12 1.065 3.21a1.374 1.374 0 01.448-1.25zm2.375 10.79l-1.304 8.042L21.031 12 2.584 3.208l1.304 8.042h7.362a.75.75 0 010 1.5H3.888z" id="sendIcon"></path></svg>
+                </div>
+            </div>
+            <div class="card-main" id="enterName">
+                <div class="card-body">
+                    <h1>Adara</h1>
+                    <h3>Es una chat bot con inteligencia artificial que te ayudará a reservar hoteles, paquetes y vuelos, cancelar alguna compra o responder alguna duda con respecto a una reserva, estadías o turismo</h3>
+                    <div id="imgIA"></div>
+                    <div>Icono diseñado por <a href="https://creativemarket.com/eucalyp" target="_blank" title="Eucalyp">Eucalyp</a></div>
+                </div>
+                <div class="card-input">
+                    <h2>Ingrese su nombre</h2>
+                    <input id="name" class="input" placeholder="Por ejemplo: 'Derek'" autocomplete="off">
+                </div>
+                <div class="card-footer">
+                    <button class="btn" id="next"><span class="material-icons">fingerprint</span></button>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
